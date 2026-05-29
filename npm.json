@@ -4,5 +4,6 @@
     "github>blaenk/renovate:base",
     ":pinAllExceptPeerDependencies",
     "customManagers:biomeVersions"
-  ]
+  ],
+  "postUpdateOptions": ["pnpmDedupe"]
 }
