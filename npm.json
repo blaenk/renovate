@@ -3,7 +3,8 @@
   "extends": [
     "github>blaenk/renovate:base",
     ":pinAllExceptPeerDependencies",
-    "customManagers:biomeVersions"
+    "customManagers:biomeVersions",
+    "security:minimumReleaseAgeNpm"
   ],
   "postUpdateOptions": ["pnpmDedupe"]
 }
