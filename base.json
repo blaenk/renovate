@@ -2,5 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", "group:all"],
   "automerge": true,
+  "assignees": ["blaenk"],
+  "assignAutomerge": true,
   "schedule": ["after 5pm on friday"]
 }
